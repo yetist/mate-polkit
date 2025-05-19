@@ -22,7 +22,7 @@ jobs:
         run: sudo .github/workflows/ubuntu.sh
 
       - name: Build the source code
-        run: .github/workflows/builds.sh
+        run: .github/workflows/builds.sh meson
 
       - name: Install GH CLI
         uses: dev-hanz-ops/install-gh-cli-action@v0.1.0
