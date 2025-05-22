@@ -1,6 +1,6 @@
 project('mate-polkit', 'c',
   license : 'GPL2+',
-  version : '1.28.1',
+  version : '1.30.0',
   meson_version : '>=0.43'
 )
 
@@ -82,7 +82,7 @@ config_inc = include_directories('.')
 
 # C args
 
-c_args = [ 
+c_args = [
   '-Wall',
   '-Wcast-align',
   '-Wtype-limits',
